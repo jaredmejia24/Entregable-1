@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+ box-sizing: border-box;
+}
+
+.btn{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100rem;
+    border: none;
+    box-shadow: 5px 5px 8px gray;
+    cursor: pointer;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.card{
+    box-shadow: 3px 3px 8px rgb(51, 51, 51);
+    display: inline-block;
+    padding: 15px 40px;
+    text-align: center;
+    max-width: 550px;
+    background-color: white;
+}
+
+.text-end{
+    text-align: end;
+}
+
+.mb-1{
+    margin-bottom: 1rem;
+}
