@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-const Phrase = ({ phrases }) => {
+const QuoteBox = ({ phrases }) => {
   const changeCard = () => {
     randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
     textColor = { color: `${randomColor}` };
@@ -50,4 +50,4 @@ const Phrase = ({ phrases }) => {
   return <div>{html}</div>;
 };
 
-export default Phrase;
+export default QuoteBox;

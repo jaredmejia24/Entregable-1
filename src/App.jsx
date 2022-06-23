@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Phrase from './components/Phrase'
+import QuoteBox from './components/QuoteBox'
 import phrases from './phrases.json'
 import './App.css'
 
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div>
-      <Phrase phrases={phrases}/>
+      <QuoteBox phrases={phrases}/>
     </div>
   )
 }
